@@ -1,0 +1,33 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+html, body {
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #2f2fb1;
+}
+
+.Login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+    margin: auto;
+    margin-inside: auto;
+
+    padding: 60px;
+    background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+}
