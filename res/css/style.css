@@ -4,7 +4,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #2f2fb1;
+    background-color: #3838a5;
 }
 
 .login{
@@ -16,14 +16,14 @@ html, body {
     display: flex;
     flex-direction: column;
 
-    padding: 60px;
+    padding: 80px;
     background: #ffffff;
     border-radius: 15px;
     text-align: center;
 }
 .begin{
     position: absolute;
-    left: 36%;
+    left: 40%;
     top: 15%;
     transform: translate(-50%, -50%);
 
@@ -39,4 +39,5 @@ html, body {
     overflow: hidden;
     margin: auto;
     margin-inside: auto;
+
 }
