@@ -36,7 +36,11 @@ input[type=text]{
     padding: 6px 10px 6px 8px;
     margin: 2px;
 }
-
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
 input[type=password]{
     width: 100%;
     box-sizing: border-box;
@@ -70,16 +74,18 @@ header:hover{
 nav {
     display: flex;
     background-color: #ffffff;
-    align-items: center;
+    justify-content: space-between;
 }
 nav div{
     height: 30px;
-    flex-grow: 1;
+
     padding: 10px;
 }
 nav div img {
     height: 100%;
 }
+
+
 nav div.search-container > input {
     box-sizing: border-box;
     height: 30px;
@@ -98,64 +104,31 @@ nav div.search-container > button {
     cursor: pointer;
     background-color: #e0e0e0;
 }
-.background{
-    position: absolute;
-    top: 6%;
-    left: 22%;
 
+.background{/*
+    position: fixed;
+    top: 5.5%;
+    left: 22%;
+    background: white;
+    padding: 100% 28%;*/
+}
+.posts{
+    display: flex; /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: space-between; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 300px;
+}
+.post {
     display: flex;
     flex-direction: column;
-
-    padding: 100%;
-    padding-right: 28%;
-    padding-left: 28%;
-
-    background: #ffffff;
-    text-align: center;
+    size: 10px;
+    background: white;
 }
-.post1{
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    padding-left: 15%;
-    padding-right: 15%;
-    height: 45%;
-    background: #ffffff;
-    border: 2px solid #dddddd;
-    margin: 15px 15px;
-    -webkit-box-shadow: 2px 3px 8px #eee;
-    -moz-box-shadow: 2px 3px 8px #eee;
-    box-shadow: 2px 3px 8px #eee;
+.posthead{
+    display: flex;
+    flex-direction: row;
 }
-
-.post2{
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translate(-50%, -50%);
-    padding-left: 15%;
-    padding-right: 15%;
-    height: 20%;
-    background: #ffffff;
-    border: 2px solid #dddddd;
-    margin: 15px 15px;
-    -webkit-box-shadow: 2px 3px 8px #eee;
-    -moz-box-shadow: 2px 3px 8px #eee;
-    box-shadow: 2px 3px 8px #eee;
-}
-.post3 {
-    position: absolute;
-    left: 50%;
-    top: 118%;
-    transform: translate(-50%, -50%);
-    padding-left: 15%;
-    padding-right: 15%;
-    height: 40%;
-    background: #ffffff;
-    border: 2px solid #dddddd;
-    margin: 15px 15px;
-    -webkit-box-shadow: 2px 3px 8px #eee;
-    -moz-box-shadow: 2px 3px 8px #eee;
-    box-shadow: 2px 3px 8px #eee;
+.style{
+    background: white;
 }
