@@ -13,13 +13,22 @@
             <div><h2><strong>Welcome to postIt! </strong></h2></div>
         </div>
         <div class="muu">
-            <div><h3><a href= # > Create an Account </a></h3></div>
+            <div><h3><a href= # style="color: #098bc6"> Create an Account </a></h3></div>
             <div><h4>Or</h4></div>
             <div><h3>Please Log In</h3></div>
             <div><input type="text" placeholder="Email" name="uname" required></div>
             <div><input type="password" placeholder="Password" name="pass" required></div>
-            <div><button type="submit">Log In</button></div>
-            <div><h5><span class="psw"><a href="#">Forgot password?</a></span></h5></div>
+            <div><button type="submit" onclick="openWebsite()">Log In</button></div>
+            <div><h4><span class="psw"><a href="#" style="color: #098bc6">Forgot password?</a></span></h4></div>
         </div>
     </div>
 </body>
+
+<script>
+    function openWebsite(){
+        window.open("index.html")
+    }
+
+
+
+</script>
