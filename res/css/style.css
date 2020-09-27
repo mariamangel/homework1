@@ -34,6 +34,7 @@ input[type=text]{
     border-radius: 4px;
     font-size: 16px;
     padding: 6px 10px 6px 8px;
+    margin: 2px;
 }
 
 input[type=password]{
@@ -43,6 +44,7 @@ input[type=password]{
     border-radius: 4px;
     font-size: 16px;
     padding: 6px 10px 6px 8px;
+    margin: 2px;
 }
 input[type=text]:focus{
     background: #b2ebee;
@@ -60,4 +62,5 @@ button[type=submit]{
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
+    margin: 2px;
 }
