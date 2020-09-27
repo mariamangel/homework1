@@ -78,7 +78,6 @@ nav {
 }
 nav div{
     height: 30px;
-
     padding: 10px;
 }
 nav div img {
@@ -102,15 +101,20 @@ nav div.search-container > button {
     padding: 5px;
     border: 1px solid #e0e0e0;
     cursor: pointer;
-    background-color: #e0e0e0;
+    background-color: #098bc6;
+    color: white;
+    border-radius: 5px;
 }
 
-.background{/*
-    position: fixed;
+.background{
+    position: absolute;
     top: 5.5%;
-    left: 22%;
+    left: 20%;
     background: white;
-    padding: 100% 28%;*/
+    height: 200%;
+    width: 58%;
+
+
 }
 .posts{
     display: flex; /* establish flex container */
@@ -118,17 +122,22 @@ nav div.search-container > button {
     justify-content: space-between; /* center items vertically, in this case */
     align-items: center;     /* center items horizontally, in this case */
     height: 300px;
+    align-content: center;
 }
 .post {
     display: flex;
     flex-direction: column;
-    size: 10px;
+    align-content: center;
+    width: 600px;
     background: white;
+
+    margin: 15px 15px;
+    -webkit-box-shadow: 2px 3px 8px #eee;
+    -moz-box-shadow: 2px 3px 8px #eee;
+    box-shadow: 2px 3px 8px #757575;
 }
 .posthead{
     display: flex;
     flex-direction: row;
-}
-.style{
-    background: white;
+    justify-content: space-between;
 }
